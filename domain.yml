@@ -441,6 +441,17 @@ responses:
   - text: Try breaking down tasks into smaller steps. This process can make seemingly overwhelming problems easier to handle.
   - text: Try to concentrate your efforts on things you can control. A stressor may be something you cannot change or control, even with the best planning.
   - text: Try to get help with financial problems. Talk with an oncology social worker or a financial advisor who knows about cancer-related insurance and financial matters. Do not wait to find financial help.
+  utter_anxious_response:
+  - text: Anxiety is a common problem for patients with a cancer diagnosis. It's important to recognize anxiety and take steps to manage it or prevent it from getting worse. ☝️
+  utter_anxious_tip:
+  - text: A relaxation technique that may help with anxiety is deep breathing.
+  - text: A relaxation technique that may help with anxiety is progressive muscle relaxation which involves tightening and then relaxing muscles.
+  - text: A relaxation technique that may help with anxiety is guided imagery which is the use of words and sounds to help you imagine positive settings, experiences, and feelings.
+  - text: A relaxation technique that may help with anxiety is meditation. This is a practice of focusing attention to achieve a sense of well-being in the present moment and reduce stress.
+  - text: A relaxation technique that may help with anxiety is hypnosis.
+  - text: A relaxation technique that may help with anxiety is biofeedback. This involves paying attention to and controlling signals from the body, such as heart rate. Signals from the body are measured with painless electrical sensors, called electrodes.
+  - text: A relaxation technique that may help with anxiety is yoga. This is the use of breathing and posture exercises to promote relaxation.
+  - text: Psychological treatment may help with anxiety. Mental health professionals include licensed counselors, psychologists, and psychiatrists. They provide tools to improve coping skills, develop a support system, and reshape negative thoughts.
 actions: []
 forms: {}
 e2e_actions: []
