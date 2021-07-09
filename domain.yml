@@ -78,7 +78,8 @@ responses:
   - text: One of the ways to maintain a positive attitude is to share feelings with trusted friends and loved ones.
   - text: One of the ways to maintain a positive attitude is to focus on parts of your health that you can control such as healthy eating.
   utter_begin_content_search:
-  - text: Let’s see if we can find some helpful information to help you on your journey :) \n test new
+  - text: Let’s see if we can find some helpful information to help you on your journey :)
+  - text: TEST: What is your current treatment phase?
   utter_treatment_phase_question:
   - buttons:
     - payload: diagnosis
