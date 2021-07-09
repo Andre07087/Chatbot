@@ -14,7 +14,7 @@
 #  url: "http://localhost:5055/webhook"
 
 action_endpoint:
-  url: "http://3.142.235.74:5005/webhook"
+  url: "http://localhost:5055/webhook"
 
 
 
