@@ -188,3 +188,73 @@ stories:
   - intent: nutrition
   - action: utter_radiation_nutri
   - action: utter_radiation_diag
+- story: Surgery_diagnosis_and_treat
+  steps:
+  - intent: surgery
+  - action: utter_interests_question
+  - intent: diagnosis-and-treatment
+  - action: utter_send_article
+  - action: utter_surgery_diag
+- story: Surgery_wellness
+  steps:
+  - intent: surgery
+  - action: utter_interests_question
+  - intent: wellness
+  - action: utter_send_article
+  - action: utter_surgery_wellness
+- story: Surgery_fitness
+  steps:
+  - intent: surgery
+  - action: utter_interests_question
+  - intent: fitness
+  - action: utter_send_article
+  - action: utter_surgery_fitness
+- story: Surgery_beauty
+  steps:
+  - intent: surgery
+  - action: utter_interests_question
+  - intent: beauty-and-care
+  - action: utter_send_article
+  - action: utter_surgery_beauty
+- story: Surgery_nutrition
+  steps:
+  - intent: surgery
+  - action: utter_interests_question
+  - intent: nutrition
+  - action: utter_send_article
+  - action: utter_surgery_nutri
+- story: Post_diagnosis_and_treat
+  steps:
+  - intent: post-treatment
+  - action: utter_interests_question
+  - intent: diagnosis-and-treatment
+  - action: utter_send_article
+  - action: utter_post_diag
+- story: Post_wellness
+  steps:
+  - intent: post-treatment
+  - action: utter_interests_question
+  - intent: wellness
+  - action: utter_send_article
+  - action: utter_post_wellness
+- story: Post_fitness
+  steps:
+  - intent: post-treatment
+  - action: utter_interests_question
+  - intent: fitness
+  - action: utter_send_article
+  - action: utter_post_fitness
+- story: Post_beauty
+  steps:
+  - intent: post-treatment
+  - action: utter_interests_question
+  - intent: beauty-and-care
+  - action: utter_send_article
+  - action: utter_post_beauty
+- story: Post_nutrition
+  steps:
+  - intent: post-treatment
+  - action: utter_interests_question
+  - intent: nutrition
+  - action: utter_send_article
+  - action: utter_post_nutri
