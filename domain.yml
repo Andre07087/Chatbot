@@ -159,6 +159,191 @@ responses:
   - text: https://www.mayoclinic.org/tests-procedures/chemotherapy/expert-answers/ginger-for-nausea/faq-20057891
   utter_chemo_fitness:
   - text: http://www.breastcancer.org/research-news/exercise-during-chemo-reduces-side-effects
+  utter_diag_diag:
+  - text: http://www.breastcancer.org/tips/managing_records
+  - text: https://ww5.komen.org/BreastCancer/Biopsies.html
+  - text: https://ww5.komen.org/BreastCancer/SurgicalBiopsies.html
+  - text: https://ww5.komen.org/BreastCancer/FineNeedleBiopsy.html
+  - text: https://ww5.komen.org/BreastCancer/CoreNeedleBiopsy.html
+  - text: https://ww5.komen.org/BreastCancer/StagingofBreastCancer.html
+  - text: https://ww5.komen.org/BreastCancer/MetastasesandStaging.html
+  - text: https://ww5.komen.org/BreastCancer/LymphNodeStatusandStaging.html
+  - text: https://ww5.komen.org/BreastCancer/TumorSizeandStaging.html
+  - text: http://www.webmd.com/cancer/news/20141006/cancer-diagnosis-can-take-toll-on-mental-health-study-finds#1
+  - text: https://www.basser.org/patients-families/genetic-counseling-and-testing
+  - text: http://www.breastcancer.org/symptoms/types/dcis
+  - text: http://www.breastcancer.org/symptoms/types/dcis/treatment,http://www.breastcancer.org/symptoms/types/dcis/follow_up
+  - text: http://www.breastcancer.org/symptoms/types/dcis/diagnosis
+  - text: http://www.breastcancer.org/symptoms/types/dcis/symptoms
+  - text: https://www.cancer.gov/types/breast/patient/breast-treatment-pdq
+  - text: http://www.breastcancer.org/symptoms/diagnosis/her2
+  - text: http://www.cancer.org/cancer/breastcancer/detailedguide/breast-cancer-treating-general-info
+  - text: https://www.healthline.com/health/metastatic-breast-cancer-end-of-life-symptoms#1
+  - text: https://www.breastcancer.org/tips/telling_family/young_kids
+  - text: https://www.verywell.com/the-psychological-impact-of-a-breast-cancer-diagnosis-430338
+  - text: http://ww5.komen.org/BreastCancer/TreatingCommonBreastCancers.html
+  - text: https://ww5.komen.org/BreastCancer/WhatisaPathologyReport.html
+  - text: https://ww5.komen.org/BreastCancer/LymphNodeStatus.html
+  - text: https://ww5.komen.org/BreastCancer/ContentsofaPathologyReport.html
+  - text: http://patient.info/health/breast-cancer-leaflet
+  - text: http://www.breastcancer.org/symptoms/diagnosis/trip_neg/behavior
+  - text: https://ww5.komen.org/BreastCancer/DecidingBetweenMastectomyandLumpectomy.html
+  utter_diag_nutri:
+  - text: Sorry, I did not find any good nutrition content, please try another category.
+  utter_diag_wellness:
+  - text: http://www.breastcancer.org/tips/managing_records
+  - text: http://www.webmd.com/cancer/news/20141006/cancer-diagnosis-can-take-toll-on-mental-health-study-finds#1
+  - text: http://ww5.komen.org/BreastCancer/FinancialResources.html
+  - text: https://www.breastcancer.org/tips/telling_family/young_kids
+  - text: https://www.verywell.com/the-psychological-impact-of-a-breast-cancer-diagnosis-430338
+  - text: https://ww5.komen.org/BreastCancer/DecidingBetweenMastectomyandLumpectomy.html
+  utter_diag_beauty:
+  - text: Sorry, I did not find any good fitness content, please try another category.
+  utter_diag_fitness:
+  - text: Sorry, I did not find any good fitness content, please try another category.
+  utter_hormone_diag:
+  - text: https://www.verywell.com/managing-bone-pain-on-hormone-therapy-4071283
+  - text: https://ww5.komen.org/BreastCancer/SideEffectsofAromataseInhibitors.html
+  - text: http://www.breastcancer.org/treatment/targeted_therapies
+  - text: http://www.breastcancer.org/symptoms/diagnosis/hormone_status/treatment_hrpos
+  - text: https://ww5.komen.org/BreastCancer/RecommendedTreatmentsforMetastaticBreastCancer.html
+  - text: https://www.healthline.com/health/ten-best-menopause-activities
+  - text: https://www.healthline.com/health/menopause/hot-flashes-at-night#1
+  - text: http://www.breastcancer.org/symptoms/diagnosis/hormone_status
+  - text: https://www.dana-farber.org/health-library/videos/eating-well-during-cancer/
+  utter_hormone_wellness:
+  - text: https://www.verywell.com/managing-bone-pain-on-hormone-therapy-4071283
+  - text: https://ww5.komen.org/BreastCancer/SideEffectsofAromataseInhibitors.html
+  - text: https://www.healthline.com/health/ten-best-menopause-activities
+  - text: https://www.healthline.com/health/menopause/hot-flashes-at-night#1
+  - text: https://www.healthline.com/health/menopause/understanding-hot-flashes
+  utter_hormone_fitness:
+  - text: Sorry, I did not find any good fitness content, please try another category.
+  utter_surgery:
+  - text: https://www.allure.com/gallery/ten-dry-shampoos-under-20
+  utter_hormone_beauty:
+  - text: https://www.everydayhealth.com/womens-health/menopause/how-dress-hot-flashes/
+  utter_hormone_nutri:
+  - text: https://www.dana-farber.org/health-library/videos/eating-well-during-cancer/
+  utter_surgery_diag:
+  - text: http://bcconnections.org/wp-content/uploads/2013/06/Rehabilitation-and-Physical-Recovery-After-Breast-Surgery-Sharon-Leslie-DPT.pdf
+  - text: https://ptandme.com/post-mastectomy-physical-therapy/
+  - text: https://www.cancer.org/cancer/breast-cancer/treatment/surgery-for-breast-cancer/exercises-after-breast-cancer-surgery.html,https://www.verywell.com/how-to-do-arm-exercises-after-breast-surgery-430211
+  - text: https://www.breastcancer.org/treatment/surgery/mastectomy/expectations
+  utter_post_diag:
+  - text: ass
+  utter_post_fitness:
+  - text: asas
+  utter_post_wellness:
+  - text: https://ww5.komen.org/uploadedFiles/_Komen/Content/About_Breast_Cancer/Tools_and_Resources/Fact_Sheets_and_Breast_Self_Awareness_Cards/Life%20after%20Breast%20Cancer%20Treatment.pdf
+  - text: https://www.cancer.org/cancer/breast-cancer/living-as-a-breast-cancer-survivor/can-i-lower-my-risk-of-breast-cancer-progressing-or-coming-back.html
+  - text: https://www.mskcc.org/blog/six-tips-managing-fear-recurrence
+  - text: https://www.cancerandcareers.org/en/at-work/where-to-start/managing-treatment-side-effects/working-with-chemo-brain
+  - text: https://www.washingtonpost.com/news/to-your-health/wp/2016/04/11/cancer-can-cause-financial-disaster-here-are-7-tips-for-preventing-that/?utm_term=.61a9b498792b
+  - text: http://www.health.com/health/gallery/0,,20772987,00.html#green-your-home-1
+  - text: https://www.realsimple.com/home-organizing/green-living/natural-cleaning-recipes
+  - text: https://www.apartmenttherapy.com/20-diy-green-cleaning-recipes-141129
+  - text: http://ww5.komen.org/BreastCancer/Acupuncture.html
+  - text: https://www.cancer.org/cancer/cancer-causes/diet-physical-activity/alcohol-use-and-cancer.html
+  - text: http://www.mayoclinic.org/diseases-conditions/dcis/basics/alternative-medicine/con-20031842
+  - text: http://www.breastcancer.org/treatment/comp_med/types/aromatherapy
+  - text: https://www.cancerandcareers.org/en/at-work/back-to-work-after-cancer
+  - text: https://ww5.komen.org/BreastCancer/BecomingEffectiveCoSurvivor.html
+  - text: http://www.apa.org/helpcenter/breast-cancer.aspx
+  - text: https://www.sciencedaily.com/releases/2016/03/160302082618.htm
+  - text: https://www.cancer.org/treatment/treatments-and-side-effects/complementary-and-alternative-medicine/complementary-and-alternative-methods-and-cancer/using-cam-safely.html
+  - text: https://www.cancerandcareers.org/en/at-work/legal-and-financial
+  - text: http://www.breastcancer.org/treatment/comp_med
+  - text: https://www.cancercare.org/publications/142-coping_with_the_stress_of_caregiving
+  - text: http://www.cancer.org/treatment/treatmentsandsideeffects/emotionalsideeffects/distressinpeoplewithcancer/distress-in-people-with-cancer-counseling-services
+  - text: https://www.ewg.org/guides/cleaners/content/cleaners_and_health#.WuJZaiOZN-U
+  - text: https://www.youcaring.com/blog/financial-help-for-cancer-patients
+  - text: https://www.cancer.gov/types/breast/patient/pregnancy-breast-treatment-pdq
+  - text: https://integrativeonc.org/patients/guide-to-credible-internet-info
+  - text: https://www.healthline.com/health/carcinogenic-ingredients-your-personal-care-products
+  - text: http://money.usnews.com/money/personal-finance/articles/2014/02/10/how-to-pay-for-cancer-treatment-when-youre-broke
+  - text: https://www.cancer.org/treatment/finding-and-paying-for-treatment/understanding-health-insurance/managing-your-health-insurance/managing-health-insurance-when-someone-has-cancer.html
+  - text: https://www.cancer.gov/about-cancer/managing-care/track-care-costs
+  - text: https://www.nytimes.com/2018/04/19/well/live/imaginative-caregiving-for-the-cancer-patient.html
+  - text: https://www.cancer.org/treatment/finding-and-paying-for-treatment/understanding-health-insurance/managing-your-health-insurance/if-your-health-insurance-claim-is-denied.html
+  - text: http://www.breastcancer.org/treatment/comp_med/types/massage
+  - text: https://www.healthline.com/nutrition/mediterranean-diet-meal-plan
+  - text: http://www.poynorhealthnewyork.com/educate/#/non-hormonal-treatments-for-hot-flashes/
+  - text: http://ww5.komen.org/BreastCancer/Massage.html
+  - text: http://www.cancernetwork.com/breast-cancer/psychological-and-social-aspects-breast-cancer
+  - text: http://www.healthywomen.org/content/article/supporting-friend-who-has-breast-cancer
+  - text: https://www.cancer.net/coping-with-cancer/talking-with-family-and-friends/supporting-friend-who-has-cancer
+  - text: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3498772/
+  - text: http://www.breastcancer.org/tips/paying/living_expenses
+  - text: https://www.ewg.org/skindeep/top-tips-for-safer-products/#.WuJjgCOZN-W
+  - text: https://ww5.komen.org/BreastCancer/WhatCanIDoWhatCanISay.html
+  - text: https://www.cancercare.org/publications/104-what_can_i_say_to_a_newly_diagnosed_loved_one
+  - text: https://www.cancer.gov/publications/patient-education/when-someone-you-love-is-treated.pdf
+  - text: https://www.cancerandcareers.org/en/at-work/where-to-start/managing-treatment-side-effects/work-and-your-treatment
+  - text: https://health.usnews.com/health-care/patient-advice/articles/2017-07-13/is-yoga-helpful-for-breast-cancer
+  - text: https://www.webmd.com/menopause/guide/menopause-hot-flashes#1
+  - text: https://www.cancer.org/treatment/finding-and-paying-for-treatment/understanding-health-insurance/if-you-have-trouble-paying-a-bill/if-you-have-problems-paying-a-medical-bill.html
+  - text: https://www.cancer.net/navigating-cancer-care/financial-considerations/understanding-costs-related-cancer-care
+  - text: https://youtu.be/V8CEV3IlxBM
+  utter_post_beauty:
+  - text: https://www.skincareox.com/18-organic-natural-deodorants-really-work/
+  - text: https://www.ewg.org/guides/cleaners/content/cleaners_and_health#.WuJZaiOZN-U
+  - text: https://www.healthline.com/health/carcinogenic-ingredients-your-personal-care-products
+  - text: https://www.usatoday.com/story/tech/reviewedcom/2017/04/21/green-up-your-laundry-this-earth-day-with-the-best-ecofriendly-detergents/100739334/
+  - text: http://www.mayoclinic.org/diseases-conditions/cancer/expert-blog/radiation-therapy-and-skin/bgp-20056321
+  - text: https://www.mskcc.org/cancer-care/patient-education/skin-care-guidelines-patients-receiving-radiation-therapy
+  - text: http://www.breastcancer.org/treatment/radiation/skin/reactions
+  - text: https://graziadaily.co.uk/life/health-fitness/wear-breast-cancer-surgery-chemotherapy-treatment/
+  - text: https://www.womansday.com/life/real-women/g1939/mastectomy-scar-tattooos/
+  utter_post_nutri:
+  - text: https://ww5.komen.org/BreastCancer/HealthyWeightampDiet.html
+  - text: https://www.healthline.com/health/food-nutrition/plant-based-diet
+  - text: https://www.healthline.com/nutrition/10-healthy-herbs-and-spices
+  - text: https://www.healthline.com/nutrition/anti-inflammatory-diet-101
+  - text: https://www.cancer.org/treatment/treatments-and-side-effects/complementary-and-alternative-medicine/dietary-supplements/choosing-safely.html
+  - text: https://www.healthline.com/health/eating-clean
+  - text: http://www.hopkinsmedicine.org/breast_center/treatments_services/nutrition.html
+  - text: https://www.healthline.com/nutrition/healthy-eating-for-beginners
+  - text: http://www.breastcancer.org/tips/nutrition/during_treat
+  - text: https://www.healthline.com/nutrition/healthy-grocery-list
+  - text: https://www.healthline.com/nutrition/how-to-read-food-labels
+  - text: https://www.healthline.com/nutrition/mediterranean-diet-meal-plan
+  - text: https://www.mskcc.org/cancer-care/patient-education/nutrition-and-breast-making-healthy-diet-decisions
+  - text: http://www.cancer.org/treatment/survivorshipduringandaftertreatment/nutritionforpeoplewithcancer/nutrition-and-physical-activity-during-and-after-cancer-treatment-answers-to-common-questions
+  - text: http://www.cancercenter.com/breast-cancer/nutrition-therapy/
+  - text: http://www.breastcancer.org/tips/nutrition
+  - text: https://blog.dana-farber.org/insight/2018/01/soy-breast-cancer-connection/
+  - text: http://blog.dana-farber.org/insight/2015/05/does-sugar-feed-cancer-2/
+  - text: https://www.eatthis.com/understanding-nutrition-labels/
+  utter_radiation_diag:
+  - text: https://www.mskcc.org/cancer-care/patient-education/skin-care-guidelines-patients-receiving-radiation-therapy
+  - text: http://www.radiologyinfo.org/en/info.cfm?pg=breast-cancer-therapy
+  - text: http://www.livescience.com/13837-exercise-helps-cancer-patients.html
+  - text: https://www.refinery29.com/2017/10/175230/skin-care-products-cancer-patients?bucketed=true,
+  - text: http://www.prevention.com/health/health-concerns/breast-cancer-treatment-workout-plan-cancer-recovery
+  utter_radiation_wellness:
+  - text: http://www.cancercenter.com/breast-cancer/naturopathic-medicine/
+  utter_surgery_beauty:
+  - text: https://www.allure.com/gallery/ten-dry-shampoos-under-20
+  - text: https://www.verywell.com/what-to-eat-during-your-recovery-after-surgery-3156923,https://www.healthline.com/nutrition/healthy-grocery-list
+  - text: https://www.breastcancer.org/treatment/surgery/mastectomy/expectations
+  utter_radiation_fitness:
+  - text: http://www.livescience.com/13837-exercise-helps-cancer-patients.html
+  - text: http://www.breastcancer.org/tips/exercise/safe
+  - text: http://www.prevention.com/health/health-concerns/breast-cancer-treatment-workout-plan-cancer-recovery
+  utter_radiation_beauty:
+  - text: https://www.mskcc.org/cancer-care/patient-education/skin-care-guidelines-patients-receiving-radiation-therapy
+  - text: http://www.breastcancer.org/treatment/radiation/skin/care
+  - text: https://www.refinery29.com/2017/10/175230/skin-care-products-cancer-patients?bucketed=true,
+  utter_radiation_nutri:
+  - text: Sorry, I did not find any good nutrition content, please try another category.
+  utter_surgery_wellness:
+  - text: http://bcconnections.org/wp-content/uploads/2013/06/Rehabilitation-and-Physical-Recovery-After-Breast-Surgery-Sharon-Leslie-DPT.pdf
+  utter_surgery_fitness:
+  - text: https://ptandme.com/post-mastectomy-physical-therapy/
+  - text: https://www.cancer.org/cancer/breast-cancer/treatment/surgery-for-breast-cancer/exercises-after-breast-cancer-surgery.html,https://www.verywell.com/how-to-do-arm-exercises-after-breast-surgery-430211
+  utter_surgery_nutrition:
+  - text: https://www.verywell.com/what-to-eat-during-your-recovery-after-surgery-3156923,https://www.healthline.com/nutrition/healthy-grocery-list
 actions: []
 forms: {}
 e2e_actions: []
