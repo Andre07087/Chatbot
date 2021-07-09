@@ -1,12 +1,11 @@
 version: "2.0"
 stories:
-- story: Story from Conversation ID 355514e98e0f4a438350b7309efadd33
+- story: Happy_diag_treatment_diag_interest_story
   steps:
   - intent: start
   - action: utter_mood_question
   - intent: mood_happy
   - action: utter_happy_tip
-  - action: utter_begin_content_search
   - action: utter_treatment_phase_question
   - intent: diagnosis
   - action: utter_interests_question

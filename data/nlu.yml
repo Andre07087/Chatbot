@@ -1,30 +1,47 @@
 version: "2.0"
 nlu:
-- intent: greet
+- intent: start
   examples: |
     - hey
     - hello
+    - yes
+    - Yes
+    - start
+    - hi
 - intent: mood_happy
   examples: |
     - Happy
+    - 😀
+    - happy
 - intent: mood_sad
   examples: |
     - Sad
-- intent: mood_ovewhelmed
+    - 😞
+    - sad
+- intent: mood_overwhelmed
   examples: |
     - Overwhelmed
+    - overwhelmed
+    - 😣
 - intent: mood_angry
   examples: |
     - Angry
+    - angry
+    - 😠
 - intent: mood_stressed
   examples: |
     - Stressed
+    - stressed
+    - 😟
 - intent: mood_anxious
   examples: |
     - Anxious
+    - anxious
+    - 😰
 - intent: diagnosis
   examples: |
     - Diagnosis
+    - diagnosis
 - intent: surgery
   examples: |
     - Surgery
@@ -55,11 +72,7 @@ nlu:
 - intent: nutrition
   examples: |
     - Nutrition
-- intent: start
-  examples: |
-    - yes
-    - Yes
-    - start
 - intent: goodbye
   examples: |
     - goodbye
+    - bye
