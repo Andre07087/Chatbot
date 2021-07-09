@@ -220,7 +220,7 @@ responses:
   - text: https://www.healthline.com/health/menopause/hot-flashes-at-night#1
   - text: https://www.healthline.com/health/menopause/understanding-hot-flashes
   utter_hormone_fitness:
-  - text: Sorry, I couldn't find content for this category, but maybe this might interest you.
+  - text: Sorry, I couldn't find content for this category, but maybe this might interest you instead.
   utter_hormone_beauty:
   - text: https://www.everydayhealth.com/womens-health/menopause/how-dress-hot-flashes/
   utter_hormone_nutri:
