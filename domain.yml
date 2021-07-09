@@ -7,6 +7,8 @@ session_config:
 intents:
 - mood_stress:
     use_entities: true
+- chemo:
+    use_entities: true
 - diagnosis:
     use_entities: true
 - mood_happy:
@@ -290,6 +292,11 @@ responses:
   - text: https://youtu.be/pNBAIGdelO0
   - text: https://www.shape.com/fitness/clothes/10-fitness-fabrics-explained
   - text: https://youtu.be/V8CEV3IlxBM
+  - text: https://www.today.com/health/strength-recovery-fitness-rehab-helps-breast-cancer-survivors-heal-8C11472930
+  - text: http://www.intheswim.com/images/PDFs/Cancer-Recovery-and-Swimming.pdf
+  - text: http://blog.dana-farber.org/insight/2012/06/five-tips-for-exercising-during-and-after-cancer-treatment/
+  - text: https://www.cancer.org/treatment/survivorship-during-and-after-treatment/staying-active/physical-activity-and-the-cancer-patient.html
+  - text: https://health.usnews.com/health-care/patient-advice/articles/2017-07-13/is-yoga-helpful-for-breast-cancer
   utter_post_wellness:
   - text: https://ww5.komen.org/uploadedFiles/_Komen/Content/About_Breast_Cancer/Tools_and_Resources/Fact_Sheets_and_Breast_Self_Awareness_Cards/Life%20after%20Breast%20Cancer%20Treatment.pdf
   - text: https://www.cancer.org/cancer/breast-cancer/living-as-a-breast-cancer-survivor/can-i-lower-my-risk-of-breast-cancer-progressing-or-coming-back.html
@@ -398,6 +405,7 @@ responses:
   utter_surgery_fitness:
   - text: https://ptandme.com/post-mastectomy-physical-therapy/
   - text: https://www.cancer.org/cancer/breast-cancer/treatment/surgery-for-breast-cancer/exercises-after-breast-cancer-surgery.html,https://www.verywell.com/how-to-do-arm-exercises-after-breast-surgery-430211
+  - text: http://www.cancer.org/cancer/breastcancer/moreinformation/exercises-after-breast-surgery
   utter_surgery_nutrition:
   - text: https://www.verywell.com/what-to-eat-during-your-recovery-after-surgery-3156923,https://www.healthline.com/nutrition/healthy-grocery-list
   utter_happy_response:

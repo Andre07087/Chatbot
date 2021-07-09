@@ -8,7 +8,7 @@ stories:
   - action: utter_happy_response
   - action: utter_happy_tip
   - action: utter_treatment_phase_question
-- story: Diagnosis_diagnosis
+- story: Diagnosis_diagnosis_and_treat
   steps:
   - intent: diagnosis
   - action: utter_interests_question
@@ -59,34 +59,132 @@ stories:
   steps:
   - intent: diagnosis
   - action: utter_interests_question
-  - intent: diagnosis-and-treatment
+  - intent: wellness
   - action: utter_send_article
   - action: utter_diag_wellness
 - story: Diagnosis_nutrition
   steps:
   - intent: diagnosis
   - action: utter_interests_question
-  - intent: diagnosis-and-treatment
+  - intent: nutrition
   - action: utter_diag_nutri
   - action: utter_diag_diag
 - story: Diagnosis_fitness
   steps:
   - intent: diagnosis
   - action: utter_interests_question
-  - intent: diagnosis-and-treatment
+  - intent: fitness
   - action: utter_diag_fitness
   - action: utter_diag_diag
 - story: Diagnosis_beauty
   steps:
   - intent: diagnosis
   - action: utter_interests_question
-  - intent: diagnosis-and-treatment
+  - intent: beauty-and-care
   - action: utter_diag_beauty
   - action: utter_diag_diag
-- story: Chemo_diagnosis
+- story: Chemo_diagnosis_and_treat
   steps:
-  - intent: diagnosis
+  - intent: chemotherapy
   - action: utter_interests_question
-  - intent: chemo
-  - action: utter_diag_beauty
-  - action: utter_diag_diag
+  - intent: diagnosis-and-treatment
+  - action: utter_send_article
+  - action: utter_chemo_diag
+- story: Chemo_wellness
+  steps:
+  - intent: chemotherapy
+  - action: utter_interests_question
+  - intent: wellness
+  - action: utter_send_article
+  - action: utter_chemo_wellness
+- story: Chemo_fitness
+  steps:
+  - intent: chemotherapy
+  - action: utter_interests_question
+  - intent: fitness
+  - action: utter_send_article
+  - action: utter_chemo_fitness
+- story: Chemo_beauty
+  steps:
+  - intent: chemotherapy
+  - action: utter_interests_question
+  - intent: beauty-and-care
+  - action: utter_send_article
+  - action: utter_chemo_beauty
+- story: Chemo_nutrition
+  steps:
+  - intent: chemotherapy
+  - action: utter_interests_question
+  - intent: nutrition
+  - action: utter_send_article
+  - action: utter_chemo_nutri
+- story: Hormone_diagnosis_and_treat
+  steps:
+  - intent: hormone
+  - action: utter_interests_question
+  - intent: diagnosis-and-treatment
+  - action: utter_send_article
+  - action: utter_hormone_diag
+- story: Hormone_wellness
+  steps:
+  - intent: hormone
+  - action: utter_interests_question
+  - intent: wellness
+  - action: utter_send_article
+  - action: utter_hormone_wellness
+- story: Hormone_fitness
+  steps:
+  - intent: hormone
+  - action: utter_interests_question
+  - intent: fitness
+  - action: utter_hormone_fitness
+  - action: utter_hormone_diag
+- story: Hormone_beauty
+  steps:
+  - intent: hormone
+  - action: utter_interests_question
+  - intent: beauty-and-care
+  - action: utter_send_article
+  - action: utter_hormone_beauty
+- story: Hormone_nutrition
+  steps:
+  - intent: hormone
+  - action: utter_interests_question
+  - intent: nutrition
+  - action: utter_send_article
+  - action: utter_nutri
+- story: Radiation_diagnosis_and_treat
+  steps:
+  - intent: radiation
+  - action: utter_interests_question
+  - intent: diagnosis-and-treatment
+  - action: utter_send_article
+  - action: utter_radiation_diag
+- story: Radiation_wellness
+  steps:
+  - intent: radiation
+  - action: utter_interests_question
+  - intent: wellness
+  - action: utter_send_article
+  - action: utter_radiation_wellness
+- story: Radiation_fitness
+  steps:
+  - intent: radiation
+  - action: utter_interests_question
+  - intent: fitness
+  - action: utter_send_article
+  - action: utter_radiation_fitness
+- story: Radiation_beauty
+  steps:
+  - intent: radiation
+  - action: utter_interests_question
+  - intent: beauty-and-care
+  - action: utter_send_article
+  - action: utter_radiation_beauty
+- story: Radiation_nutrition
+  steps:
+  - intent: radiation
+  - action: utter_interests_question
+  - intent: nutrition
+  - action: utter_radiation_nutri
+  - action: utter_radiation_diag

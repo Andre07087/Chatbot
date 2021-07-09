@@ -41,7 +41,6 @@ nlu:
 - intent: diagnosis
   examples: |
     - Diagnosis
-    - diagnosis
 - intent: surgery
   examples: |
     - Surgery
