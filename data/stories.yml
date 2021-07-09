@@ -20,6 +20,7 @@ stories:
   - intent: start
   - action: utter_mood_question
   - intent: mood_sad
+  - action: utter_sad_response
   - action: utter_sad_tip
   - action: utter_treatment_phase_question
 - story: Overwhelmed_mood_tip

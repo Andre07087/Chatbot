@@ -402,6 +402,24 @@ responses:
   - text: That's awesome to hear, keep on fighting! 😁
   utter_overwhelmed_response:
   - text: It is understandable to be overwhelmed, but in this tough situation you should remain calm and focused.  👍
+  utter_overwhelmed_tip:
+  - text: One way to deal with being overwhelmed is to learn as much as you can about cancer. The more you know, the more in control you'll feel.
+  - text: One way to deal with being overwhelmed is to stay busy and keep your mind active.
+  - text: One way to deal with being overwhelmed is to try taking part in activities such as music, crafts, reading, or learning something new.
+  - text: One way to deal with being overwhelmed is to meet friends often and don’t be isolated.
+  - text: One way to deal with being overwhelmed is to learn new skills that you feel passionate about.
+  utter_sad_response:
+  - text: I sympathize with what you are going through and I understand this is a very tough situation, but try and keep your head up. 🙏
+  utter_sad_tip:
+  - text: Something that might cheer you up is to write in a journal.
+  - text: Something that might cheer you up is to spend time with a pet.
+  - text: Something that might cheer you up is to draw, paint, sculpt or do other forms of art.
+  - text: Something that might cheer you up is to have physical activities such as walking, running or bicycling.
+  - text: Something that might cheer you up is to practice yoga, meditation or other methods of relaxation.
+  - text: Something that might cheer you up is to play or listen to music.
+  - text: Something that might cheer you up is to use positive affirmations or sayings.
+  - text: Something that might cheer you up is to share feelings with trusted friends and loved ones.
+  - text: Something that might cheer you up is to focus on parts of your health that you can control such as healthy eating.
 actions: []
 forms: {}
 e2e_actions: []
