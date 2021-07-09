@@ -31,3 +31,11 @@ stories:
   - action: utter_overwhelmed_response
   - action: utter_overwhelmed_tip
   - action: utter_treatment_phase_question
+- story: Angry_mood_tip
+  steps:
+  - intent: start
+  - action: utter_mood_question
+  - intent: mood_angry
+  - action: utter_angry_response
+  - action: utter_angry_tip
+  - action: utter_treatment_phase_question

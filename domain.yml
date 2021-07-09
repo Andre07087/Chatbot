@@ -420,6 +420,15 @@ responses:
   - text: Something that might cheer you up is to use positive affirmations or sayings.
   - text: Something that might cheer you up is to share feelings with trusted friends and loved ones.
   - text: Something that might cheer you up is to focus on parts of your health that you can control such as healthy eating.
+  utter_angry_response:
+  - text: Anger is a natural emotional response. You do not need to feel guilt if you experience it. Anger is not bad. But some people deal with it and express it in unhealthy ways.
+  utter_angry_tip:
+  - text: One way to express and release your anger in a healthy way is to discuss the reasons for your anger with a trusted family member or friend.
+  - text: One way to express and release your anger in a healthy way is to do a physical activity while feeling your anger at its full intensity.
+  - text: One way to express and release your anger in a healthy way is to beat on a pillow with your fists, or find a punching bag.
+  - text: One way to express and release your anger in a healthy way is to yell out loud in a car or private room.
+  - text: One way to express and release your anger in a healthy way is to explore complementary therapies, such as massage, relaxation techniques, music, or art.
+  - text: One way to express and release your anger in a healthy way is to do light exercises like yoga or going for a walk.
 actions: []
 forms: {}
 e2e_actions: []
