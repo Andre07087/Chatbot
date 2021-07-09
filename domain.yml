@@ -189,7 +189,7 @@ responses:
   - text: http://www.breastcancer.org/symptoms/diagnosis/trip_neg/behavior
   - text: https://ww5.komen.org/BreastCancer/DecidingBetweenMastectomyandLumpectomy.html
   utter_diag_nutri:
-  - text: Sorry, I did not find any good nutrition content, please try another category.
+  - text: Sorry, I couldn't find content for this category, but maybe this might interest you.
   utter_diag_wellness:
   - text: http://www.breastcancer.org/tips/managing_records
   - text: http://www.webmd.com/cancer/news/20141006/cancer-diagnosis-can-take-toll-on-mental-health-study-finds#1
@@ -198,9 +198,9 @@ responses:
   - text: https://www.verywell.com/the-psychological-impact-of-a-breast-cancer-diagnosis-430338
   - text: https://ww5.komen.org/BreastCancer/DecidingBetweenMastectomyandLumpectomy.html
   utter_diag_beauty:
-  - text: Sorry, I did not find any good fitness content, please try another category.
+  - text: Sorry, I couldn't find content for this category, but maybe this might interest you.
   utter_diag_fitness:
-  - text: Sorry, I did not find any good fitness content, please try another category.
+  - text: Sorry, I couldn't find content for this category, but maybe this might interest you.
   utter_hormone_diag:
   - text: https://www.verywell.com/managing-bone-pain-on-hormone-therapy-4071283
   - text: https://ww5.komen.org/BreastCancer/SideEffectsofAromataseInhibitors.html
@@ -231,9 +231,65 @@ responses:
   - text: https://www.cancer.org/cancer/breast-cancer/treatment/surgery-for-breast-cancer/exercises-after-breast-cancer-surgery.html,https://www.verywell.com/how-to-do-arm-exercises-after-breast-surgery-430211
   - text: https://www.breastcancer.org/treatment/surgery/mastectomy/expectations
   utter_post_diag:
-  - text: ass
+  - text: https://www.cancer.org/cancer/breast-cancer/living-as-a-breast-cancer-survivor/body-image-and-sexuality-after-breast-cancer.html
+  - text: https://ww5.komen.org/uploadedFiles/_Komen/Content/About_Breast_Cancer/Tools_and_Resources/Fact_Sheets_and_Breast_Self_Awareness_Cards/Life%20after%20Breast%20Cancer%20Treatment.pdf
+  - text: https://www.today.com/health/strength-recovery-fitness-rehab-helps-breast-cancer-survivors-heal-8C11472930
+  - text: https://www.cancer.org/cancer/breast-cancer/living-as-a-breast-cancer-survivor/can-i-lower-my-risk-of-breast-cancer-progressing-or-coming-back.html
+  - text: https://ww5.komen.org/BreastCancer/HealthyWeightampDiet.html
+  - text: https://www.mskcc.org/blog/six-tips-managing-fear-recurrence
+  - text: https://www.cancer.org/treatment/survivorship-during-and-after-treatment/understanding-recurrence/coping-with-cancer-recurrence.html
+  - text: https://www.cancerandcareers.org/en/at-work/where-to-start/managing-treatment-side-effects/working-with-chemo-brain
+  - text: https://ww5.komen.org/BreastCancer/ReturnofCancerafterTreatment.html
+  - text: http://ww5.komen.org/BreastCancer/MedicalCareAfterTreatment.html
+  - text: https://www.healthline.com/health/food-nutrition/plant-based-diet
+  - text: https://www.washingtonpost.com/news/to-your-health/wp/2016/04/11/cancer-can-cause-financial-disaster-here-are-7-tips-for-preventing-that/?utm_term=.61a9b498792b
+  - text: http://www.health.com/health/gallery/0,,20772987,00.html#green-your-home-1
+  - text: https://www.realsimple.com/home-organizing/green-living/natural-cleaning-recipes
+  - text: http://ww5.komen.org/BreastCancer/Acupuncture.html
+  - text: https://www.cancer.org/cancer/cancer-causes/diet-physical-activity/alcohol-use-and-cancer.html
+  - text: http://www.mayoclinic.org/diseases-conditions/dcis/basics/alternative-medicine/con-20031842
+  - text: https://ww5.komen.org/BreastCancer/BecomingEffectiveCoSurvivor.html
+  - text: http://www.apa.org/helpcenter/breast-cancer.aspx
+  - text: https://www.sciencedaily.com/releases/2016/03/160302082618.htm
+  - text: https://www.cancer.org/treatment/treatments-and-side-effects/complementary-and-alternative-medicine/complementary-and-alternative-methods-and-cancer/using-cam-safely.html
+  - text: https://www.cancercare.org/publications/1-caregiving_for_your_loved_one_with_cancer#!introduction
+  - text: https://www.cancercare.org/publications/47-caring_advice_for_caregivers_how_can_you_help_yourself
+  - text: https://www.cancer.org/treatment/treatments-and-side-effects/complementary-and-alternative-medicine/dietary-supplements/choosing-safely.html
+  - text: http://www.breastcancer.org/treatment/comp_med
+  - text: https://www.cancercare.org/publications/142-coping_with_the_stress_of_caregiving
+  - text: http://www.cancer.org/treatment/treatmentsandsideeffects/emotionalsideeffects/distressinpeoplewithcancer/distress-in-people-with-cancer-counseling-services
+  - text: http://www.intheswim.com/images/PDFs/Cancer-Recovery-and-Swimming.pdf
+  - text: http://blog.dana-farber.org/insight/2012/06/five-tips-for-exercising-during-and-after-cancer-treatment/
+  - text: https://www.cancer.gov/types/breast/patient/pregnancy-breast-treatment-pdq
+  - text: https://integrativeonc.org/patients/guide-to-credible-internet-info
+  - text: https://www.cancer.org/treatment/finding-and-paying-for-treatment/understanding-health-insurance/managing-your-health-insurance/if-your-health-insurance-claim-is-denied.html
+  - text: https://www.nytimes.com/2018/04/19/well/live/imaginative-caregiving-for-the-cancer-patient.html
+  - text: https://www.cancer.gov/about-cancer/managing-care/track-care-costs
+  - text: https://www.cancer.org/treatment/finding-and-paying-for-treatment/understanding-health-insurance/managing-your-health-insurance/managing-health-insurance-when-someone-has-cancer.html
+  - text: https://www.healthline.com/nutrition/mediterranean-diet-meal-plan
+  - text: http://www.poynorhealthnewyork.com/educate/#/non-hormonal-treatments-for-hot-flashes/
+  - text: http://www.cancercenter.com/breast-cancer/nutrition-therapy/
+  - text: http://www.breastcancer.org/tips/nutrition
+  - text: https://www.cancer.org/treatment/survivorship-during-and-after-treatment/staying-active/physical-activity-and-the-cancer-patient.html
+  - text: http://www.cancernetwork.com/breast-cancer/psychological-and-social-aspects-breast-cancer
+  - text: https://www.cancer.gov/about-cancer/coping/feelings/stress-fact-sheet
+  - text: https://blog.dana-farber.org/insight/2018/01/soy-breast-cancer-connection/
+  - text: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3498772/
+  - text: https://www.cancer.org/cancer/breast-cancer/treatment/treatment-of-breast-cancer-by-stage.html
+  - text: https://www.cancer.gov/publications/patient-education/when-someone-you-love-is-treated.pdf
+  - text: https://www.cancerandcareers.org/en/at-work/where-to-start/managing-treatment-side-effects/work-and-your-treatment
+  - text: https://health.usnews.com/health-care/patient-advice/articles/2017-07-13/is-yoga-helpful-for-breast-cancer
+  - text: https://www.cancer.org/treatment/finding-and-paying-for-treatment/understanding-health-insurance/if-you-have-trouble-paying-a-bill/if-you-have-problems-paying-a-medical-bill.html
+  - text: https://www.cancer.net/navigating-cancer-care/financial-considerations/understanding-costs-related-cancer-care
+  - text: http://www.mayoclinic.org/diseases-conditions/cancer/expert-blog/radiation-therapy-and-skin/bgp-20056321
+  - text: https://www.mskcc.org/cancer-care/patient-education/skin-care-guidelines-patients-receiving-radiation-therapy
+  - text: http://www.breastcancer.org/treatment/radiation/skin/reactions
+  - text: https://www.womansday.com/life/real-women/g1939/mastectomy-scar-tattooos/
   utter_post_fitness:
-  - text: asas
+  - text: http://www.webmd.com/cancer/features/exercise-cancer-patients#1
+  - text: https://youtu.be/pNBAIGdelO0
+  - text: https://www.shape.com/fitness/clothes/10-fitness-fabrics-explained
+  - text: https://youtu.be/V8CEV3IlxBM
   utter_post_wellness:
   - text: https://ww5.komen.org/uploadedFiles/_Komen/Content/About_Breast_Cancer/Tools_and_Resources/Fact_Sheets_and_Breast_Self_Awareness_Cards/Life%20after%20Breast%20Cancer%20Treatment.pdf
   - text: https://www.cancer.org/cancer/breast-cancer/living-as-a-breast-cancer-survivor/can-i-lower-my-risk-of-breast-cancer-progressing-or-coming-back.html
