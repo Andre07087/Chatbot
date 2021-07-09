@@ -9,32 +9,122 @@ intents:
     use_entities: true
 - goodbye:
     use_entities: true
-- affirm:
+- mood_happy:
     use_entities: true
-- deny:
+- mood_sad:
     use_entities: true
-- mood_great:
+- mood_ovewhelmed:
     use_entities: true
-- mood_unhappy:
+- mood_angry:
     use_entities: true
-- bot_challenge:
+- mood_stressed:
+    use_entities: true
+- mood_anxious:
+    use_entities: true
+- diagnosis:
+    use_entities: true
+- surgery:
+    use_entities: true
+- chemotherapy:
+    use_entities: true
+- hormone:
+    use_entities: true
+- radiation:
+    use_entities: true
+- post-treatment:
+    use_entities: true
+- diagnosis-and-treatment:
+    use_entities: true
+- wellness:
+    use_entities: true
+- fitness:
+    use_entities: true
+- beauty-and-care:
+    use_entities: true
+- nutrition:
+    use_entities: true
+- start:
     use_entities: true
 entities: []
 slots: {}
 responses:
   utter_greet:
-  - text: Hey! How are you?
-  utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
-  utter_did_that_help:
-  - text: Did that help you?
+  - text: Hi! How can I help you today?
   utter_happy:
-  - text: Great, carry on!
+  - text: |-
+      That’s so awesome to hear :) 
+      Maintaining and surrounding yourself with positivity is one of the most important ways to beat cancer. One of the ways to maintain a happy attitude is to write in a journal.
   utter_goodbye:
   - text: Bye
-  utter_iamabot:
-  - text: I am a bot, powered by Rasa.
+  utter_Signup:
+  - text: Click here to sign up.
+  utter_Information:
+  - text: We can provide you with more information to assist you on your journey. Just sign in to begin
+  utter_rephrase:
+  - text: Sorry, I’m still learning. :( I didn’t understand that could you try rephrasing that again or choose from these options?
+  utter_events:
+  - text: We have plenty of events throughout the year. You can find dates and more information here.
+  utter_about:
+  - text: To learn more about the team dedicated to assisting you on your journey click below.
+  utter_mailing_form:
+  - text: For more information sent directly to you, please enter your email
+  utter_happy_tip:
+  - text: One of the ways to maintain a positive attitude is to spend time with a pet.
+  - text: One of the ways to maintain a positive attitude is to draw, paint, sculpt or do other forms of art.
+  - text: One of the ways to maintain a positive attitude is to have physical activities such as walking, running or bicycling.
+  - text: One of the ways to maintain a positive attitude is to practice yoga, meditation or other methods of relaxation.
+  - text: One of the ways to maintain a positive attitude is to play or listen to music.
+  - text: One of the ways to maintain a positive attitude is to use positive affirmations or sayings.
+  - text: One of the ways to maintain a positive attitude is to share feelings with trusted friends and loved ones.
+  - text: One of the ways to maintain a positive attitude is to focus on parts of your health that you can control such as healthy eating.
+  utter_begin_content_search:
+  - text: Let’s see if we can find some helpful information to help you on your journey :)
+  - text: TEST: What is your current treatment phase?
+  utter_treatment_phase_question:
+  - buttons:
+    - payload: diagnosis
+      title: Diagnosis
+    - payload: surgery
+      title: Surgery
+    - payload: chemotherapy
+      title: Chemotherapy
+    - payload: hormone
+      title: Hormone
+    - payload: radiation
+      title: Radiation
+    - payload: post-treatment
+      title: Post-Treatment
+    text: What is your current treatment phase?
+  utter_category_question:
+  - buttons:
+    - payload: diagnosis-and-treatment
+      title: Diagnosis & Treatment
+    - payload: wellness
+      title: Wellness
+    - payload: fitness
+      title: Fitness
+    - payload: beauty-and-care
+      title: Beauty & Personal Care
+    - payload: nutrition
+      title: Nutrition
+    text: What would you like to learn more about today?
+  utter_send_article:
+  - text: Awesome! Check out this article with helpful information for your journey :)
+  utter_mood_question:
+  - buttons:
+    - payload: mood_happy
+      title: Happy
+    - payload: mood_sad
+      title: Sad
+    - payload: mood_overwhelmed
+      title: Overwhelmed
+    - payload: mood_angry
+      title: Angry
+    - payload: mood_stressed
+      title: Stressed
+    - payload: mood_anxious
+      title: Anxious
+    text: How are you feeling today?
 actions: []
 forms: {}
 e2e_actions: []
