@@ -25,8 +25,6 @@ intents:
     use_entities: true
 - chemotherapy:
     use_entities: true
-- mood_ovewhelmed:
-    use_entities: true
 - post-treatment:
     use_entities: true
 - surgery:
@@ -42,6 +40,8 @@ intents:
 - nutrition:
     use_entities: true
 - wellness:
+    use_entities: true
+- mood_overwhelmed:
     use_entities: true
 entities: []
 slots: {}
@@ -106,6 +106,59 @@ responses:
     text: What would you like to learn more about today?
   utter_send_article:
   - text: Awesome! Check out this article with helpful information for your journey :)
+  utter_chemo_diag:
+  - text: https://www.self.com/gallery/skin-care-products-to-use-during-chemotherapy
+  - text: https://www.cancer.org/treatment/treatments-and-side-effects/physical-side-effects/changes-in-mood-or-thinking/chemo-brain.html
+  - text: http://www.breastcancer.org/treatment/chemotherapy,http://www.breastcancer.org/treatment/chemotherapy/how_it_works,http://www.breastcancer.org/treatment/chemotherapy/who_gets_it,http://www.breastcancer.org/treatment/chemotherapy/medicines,http://www.breastcancer.org/treatment/chemotherapy/your_chemo_combo,http://www.breastcancer.org/treatment/chemotherapy/talk_to_doc,
+  - text: http://www.breastcancer.org/tips/hair_skin_nails/cold-caps
+  - text: https://health.usnews.com/health-care/articles/2018-02-28/cutting-out-gluten-may-help-some-battle-nerve-pain
+  - text: http://www.breastcancer.org/research-news/exercise-during-chemo-reduces-side-effects
+  - text: https://www.healthline.com/health/breast-cancer-navigator/preparing-your-family#1
+  - text: https://www.verywell.com/chemotherapy-side-effects-dry-skin-management-513899
+  - text: http://www.breastcancer.org/treatment/chemotherapy/side_effects
+  - text: https://www.mskcc.org/cancer-care/patient-education/managing-hair-loss-scalp-cooling-during-chemotherapy-solid-tumors
+  - text: https://www.cancercare.org/publications/328-medical_marijuana_and_cancer
+  - text: http://www.breastcancer.org/treatment/side_effects/nail_changes
+  - text: https://www.cancer.org/treatment/survivorship-during-and-after-treatment/staying-active/nutrition/nutrition-during-treatment/weak-immune-system.html
+  - text: https://www.ucsfhealth.org/education/diet_for_cancer_treatment_side_effects/index.html
+  - text: http://www.breastcancer.org/treatment/side_effects/neuropathy
+  - text: http://www.breastcancer.org/tips/nutrition/during_treat/planning
+  - text: http://www.ncsl.org/research/health/state-medical-marijuana-laws.aspx
+  - text: https://www.mouthhealthy.org/en/az-topics/c/cancer-before-treatment
+  - text: http://www.everydayhealth.com/columns/kathy-ellen-kups-life-with-breast-cancer/what-are-you-wearing-to-chemotherapy/
+  - text: http://www.breastcancer.org/treatment/chemotherapy/process,http://www.breastcancer.org/treatment/chemotherapy/process/when,http://www.breastcancer.org/treatment/chemotherapy/process/how,http://www.breastcancer.org/treatment/chemotherapy/process/where,http://www.breastcancer.org/treatment/chemotherapy/process/before,http://www.breastcancer.org/treatment/chemotherapy/process/infusion,
+  - text: https://www.cancer.net/navigating-cancer-care/how-cancer-treated/chemotherapy/what-expect-when-having-chemotherapy
+  - text: https://breastcancerfreebies.com/wigs/
+  - text: http://www.breastcancer.org/tips/hair_skin_nails/wigs
+  - text: https://www.whatnext.com/blog/posts/be-prepared-22-things-to-bring-to-chemo
+  - text: https://www.mouthhealthy.org/en/az-topics/c/cancer-during-treatment
+  - text: https://www.healthline.com/nutrition/nausea-remedies
+  utter_chemo_beauty:
+  - text: https://www.self.com/gallery/skin-care-products-to-use-during-chemotherapy
+  - text: http://www.breastcancer.org/tips/hair_skin_nails/cold-caps
+  - text: https://www.verywell.com/chemotherapy-side-effects-dry-skin-management-513899
+  - text: https://www.mskcc.org/cancer-care/patient-education/managing-hair-loss-scalp-cooling-during-chemotherapy-solid-tumors
+  - text: http://www.breastcancer.org/treatment/side_effects/nail_changes
+  - text: https://www.mouthhealthy.org/en/az-topics/c/cancer-before-treatment
+  - text: http://www.everydayhealth.com/columns/kathy-ellen-kups-life-with-breast-cancer/what-are-you-wearing-to-chemotherapy/
+  - text: https://breastcancerfreebies.com/wigs/
+  - text: http://www.breastcancer.org/tips/hair_skin_nails/wigs
+  - text: https://www.whatnext.com/blog/posts/be-prepared-22-things-to-bring-to-chemo
+  - text: https://www.mouthhealthy.org/en/az-topics/c/cancer-during-treatment
+  utter_chemo_wellness:
+  - text: https://www.cancer.org/treatment/treatments-and-side-effects/physical-side-effects/changes-in-mood-or-thinking/chemo-brain.html
+  - text: https://www.healthline.com/health/breast-cancer-navigator/preparing-your-family#1
+  - text: http://www.ncsl.org/research/health/state-medical-marijuana-laws.aspx
+  - text: https://www.mayoclinic.org/tests-procedures/chemotherapy/expert-answers/ginger-for-nausea/faq-20057891
+  utter_chemo_nutri:
+  - text: https://health.usnews.com/health-care/articles/2018-02-28/cutting-out-gluten-may-help-some-battle-nerve-pain
+  - text: https://www.cancer.org/treatment/survivorship-during-and-after-treatment/staying-active/nutrition/nutrition-during-treatment/weak-immune-system.html
+  - text: https://www.ucsfhealth.org/education/diet_for_cancer_treatment_side_effects/index.html
+  - text: http://www.breastcancer.org/tips/nutrition/during_treat/planning
+  - text: https://www.healthline.com/nutrition/nausea-remedies
+  - text: https://www.mayoclinic.org/tests-procedures/chemotherapy/expert-answers/ginger-for-nausea/faq-20057891
+  utter_chemo_fitness:
+  - text: http://www.breastcancer.org/research-news/exercise-during-chemo-reduces-side-effects
 actions: []
 forms: {}
 e2e_actions: []
