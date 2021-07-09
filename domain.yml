@@ -5,6 +5,8 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- mood_stress:
+    use_entities: true
 - diagnosis:
     use_entities: true
 - mood_happy:
@@ -421,7 +423,7 @@ responses:
   - text: Something that might cheer you up is to share feelings with trusted friends and loved ones.
   - text: Something that might cheer you up is to focus on parts of your health that you can control such as healthy eating.
   utter_angry_response:
-  - text: Anger is a natural emotional response. You do not need to feel guilt if you experience it. Anger is not bad. But some people deal with it and express it in unhealthy ways.
+  - text: Anger is a natural emotional response. You do not need to feel guilt if you experience it. Anger is not bad, but you should avoid expressing it in unhealthy ways. 👊
   utter_angry_tip:
   - text: One way to express and release your anger in a healthy way is to discuss the reasons for your anger with a trusted family member or friend.
   - text: One way to express and release your anger in a healthy way is to do a physical activity while feeling your anger at its full intensity.
@@ -429,6 +431,16 @@ responses:
   - text: One way to express and release your anger in a healthy way is to yell out loud in a car or private room.
   - text: One way to express and release your anger in a healthy way is to explore complementary therapies, such as massage, relaxation techniques, music, or art.
   - text: One way to express and release your anger in a healthy way is to do light exercises like yoga or going for a walk.
+  utter_stressed_reponse:
+  - text: Cancer is often one of the most stressful experiences of a person's life. Stress can make dealing with cancer so much more difficult, but you can often lower the amount of stress in your life by making small changes. 🙏
+  utter_stressed_tip:
+  - text: Try to take control of your schedule and use a day planner, your phone, or an online calendar to keep track of appointments and activities. 📅
+  - text: Try to be aware of your limits. If you do not have the time, energy, or interest, it is okay to politely decline when people ask you to take on tasks.
+  - text: Try asking for help. People are likely to offer their support, so think about particular tasks you need help with beforehand. 🤝
+  - text: Try prioritizing your tasks. Make a list of the things you routinely do, such as work and household chores. Rank these things by importance, considering the things you must do and the things that are most important to you.
+  - text: Try breaking down tasks into smaller steps. This process can make seemingly overwhelming problems easier to handle.
+  - text: Try to concentrate your efforts on things you can control. A stressor may be something you cannot change or control, even with the best planning.
+  - text: Try to get help with financial problems. Talk with an oncology social worker or a financial advisor who knows about cancer-related insurance and financial matters. Do not wait to find financial help.
 actions: []
 forms: {}
 e2e_actions: []

@@ -39,3 +39,11 @@ stories:
   - action: utter_angry_response
   - action: utter_angry_tip
   - action: utter_treatment_phase_question
+- story: Stress_mood_tip
+  steps:
+  - intent: start
+  - action: utter_mood_question
+  - intent: mood_stress
+  - action: utter_happy_response
+  - action: utter_happy_tip
+  - action: utter_treatment_phase_question
