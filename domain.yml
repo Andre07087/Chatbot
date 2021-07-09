@@ -107,7 +107,7 @@ responses:
       title: Nutrition
     text: What would you like to learn more about today?
   utter_send_article:
-  - text: Awesome! Check out this article with helpful information for your journey :)
+  - text: Check out this content that can provide some helpful information for your journey. 👍
   utter_chemo_diag:
   - text: https://www.self.com/gallery/skin-care-products-to-use-during-chemotherapy
   - text: https://www.cancer.org/treatment/treatments-and-side-effects/physical-side-effects/changes-in-mood-or-thinking/chemo-brain.html

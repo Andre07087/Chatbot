@@ -8,7 +8,7 @@ stories:
   - action: utter_happy_response
   - action: utter_happy_tip
   - action: utter_treatment_phase_question
-- story: Diagnosis_Diagnosis
+- story: Diagnosis_diagnosis
   steps:
   - intent: diagnosis
   - action: utter_interests_question
@@ -55,3 +55,38 @@ stories:
   - action: utter_anxious_response
   - action: utter_anxious_tip
   - action: utter_treatment_phase_question
+- story: Diagnosis_wellness
+  steps:
+  - intent: diagnosis
+  - action: utter_interests_question
+  - intent: diagnosis-and-treatment
+  - action: utter_send_article
+  - action: utter_diag_wellness
+- story: Diagnosis_nutrition
+  steps:
+  - intent: diagnosis
+  - action: utter_interests_question
+  - intent: diagnosis-and-treatment
+  - action: utter_diag_nutri
+  - action: utter_diag_diag
+- story: Diagnosis_fitness
+  steps:
+  - intent: diagnosis
+  - action: utter_interests_question
+  - intent: diagnosis-and-treatment
+  - action: utter_diag_fitness
+  - action: utter_diag_diag
+- story: Diagnosis_beauty
+  steps:
+  - intent: diagnosis
+  - action: utter_interests_question
+  - intent: diagnosis-and-treatment
+  - action: utter_diag_beauty
+  - action: utter_diag_diag
+- story: Chemo_diagnosis
+  steps:
+  - intent: diagnosis
+  - action: utter_interests_question
+  - intent: chemo
+  - action: utter_diag_beauty
+  - action: utter_diag_diag
