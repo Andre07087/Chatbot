@@ -7,8 +7,6 @@ session_config:
 intents:
 - mood_stress:
     use_entities: true
-- chemo:
-    use_entities: true
 - diagnosis:
     use_entities: true
 - mood_happy:
