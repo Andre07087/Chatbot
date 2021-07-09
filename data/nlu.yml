@@ -60,3 +60,6 @@ nlu:
     - yes
     - Yes
     - start
+- intent: goodbye
+  examples: |
+    - goodbye
