@@ -1,13 +1,16 @@
 version: "2.0"
 stories:
-- story: Happy_diag_treatment_diag_interest_story
+- story: Happy_mood_tip
   steps:
   - intent: start
   - action: utter_mood_question
   - intent: mood_happy
   - action: utter_happy_tip
   - action: utter_treatment_phase_question
+- story: Diagnosis_Diagnosis
+  steps:
   - intent: diagnosis
   - action: utter_interests_question
   - intent: diagnosis-and-treatment
   - action: utter_send_article
+  - action: utter_diag_diag
