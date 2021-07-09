@@ -219,8 +219,6 @@ responses:
   - text: https://www.healthline.com/health/menopause/understanding-hot-flashes
   utter_hormone_fitness:
   - text: Sorry, I did not find any good fitness content, please try another category.
-  utter_surgery:
-  - text: https://www.allure.com/gallery/ten-dry-shampoos-under-20
   utter_hormone_beauty:
   - text: https://www.everydayhealth.com/womens-health/menopause/how-dress-hot-flashes/
   utter_hormone_nutri:
@@ -392,7 +390,7 @@ responses:
   - text: http://www.breastcancer.org/treatment/radiation/skin/care
   - text: https://www.refinery29.com/2017/10/175230/skin-care-products-cancer-patients?bucketed=true,
   utter_radiation_nutri:
-  - text: Sorry, I did not find any good nutrition content, please try another category.
+  - text: Sorry, I couldn't find content for this category, but maybe this might interest you.
   utter_surgery_wellness:
   - text: http://bcconnections.org/wp-content/uploads/2013/06/Rehabilitation-and-Physical-Recovery-After-Breast-Surgery-Sharon-Leslie-DPT.pdf
   utter_surgery_fitness:
