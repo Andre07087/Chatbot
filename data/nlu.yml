@@ -13,65 +13,119 @@ nlu:
     - Happy
     - 😀
     - happy
+    - hppy
 - intent: mood_sad
   examples: |
     - Sad
     - 😞
     - sad
+    - ssad
 - intent: mood_overwhelmed
   examples: |
     - Overwhelmed
     - overwhelmed
     - 😣
+    - overwelmed
 - intent: mood_angry
   examples: |
     - Angry
     - angry
     - 😠
+    - anger
 - intent: mood_stressed
   examples: |
     - Stressed
     - stressed
     - 😟
+    - stress
+    - strss
+    - stres
+    - stressd
 - intent: mood_anxious
   examples: |
     - Anxious
     - anxious
     - 😰
+    - anxiety
+    - anxty
+    - anxiuos
+    - anxouis
+    - anxius
 - intent: diagnosis
   examples: |
     - Diagnosis
+    - diagnosis
+    - diagnsis
 - intent: surgery
   examples: |
     - Surgery
+    - srugery
+    - surgry
+    - surgery
 - intent: chemotherapy
   examples: |
     - Chemotherapy
+    - chemo
+    - chemotherapy
+    - chemtherapy
+    - chemothrapy
 - intent: hormone
   examples: |
     - Hormone
+    - hormone
+    - hormones
+    - hormnes
 - intent: radiation
   examples: |
     - Radiation
+    - radiation
+    - radition
+    - radeation
 - intent: post-treatment
   examples: |
     - Post-Treatment
+    - post-treatment
+    - post
+    - post treatment
+    - post tretment
 - intent: diagnosis-and-treatment
   examples: |
     - Diagnosis & Treatment
+    - diagnosis and treatment
+    - diagnosis & treatment
 - intent: wellness
   examples: |
     - Wellness
+    - wellness
+    - welness
+    - wellnes
+    - welnes
 - intent: fitness
   examples: |
     - Fitness
+    - fitness
+    - fitnes
 - intent: beauty-and-care
   examples: |
     - Beauty & Personal Care
+    - beauty & personal care
+    - beauty and personal care
 - intent: nutrition
   examples: |
     - Nutrition
+    - nutrition
+    - nutritin
+    - nutritoin
+    - nutrtoin
+    - nutrtion
+    - nutriton
 - intent: goodbye
   examples: |
     - goodbye
     - bye
+    - Bye
+    - BYe
+    - Goodbye
+    - cya
+    - CYa
+    - Cya

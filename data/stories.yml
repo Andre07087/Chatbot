@@ -152,7 +152,7 @@ stories:
   - action: utter_interests_question
   - intent: nutrition
   - action: utter_send_article
-  - action: utter_nutri
+  - action: utter_hormone_nutri
 - story: Radiation_diagnosis_and_treat
   steps:
   - intent: radiation
