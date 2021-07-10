@@ -2,7 +2,8 @@ version: "2.0"
 stories:
 - story: Happy_mood_tip
   steps:
-  - intent: start
+  - intent: greet
+  - action: utter_greet
   - action: utter_mood_question
   - intent: mood_happy
   - action: utter_happy_response
@@ -17,7 +18,8 @@ stories:
   - action: utter_diag_diag
 - story: Sad_mood_tip
   steps:
-  - intent: start
+  - intent: greet
+  - action: utter_greet
   - action: utter_mood_question
   - intent: mood_sad
   - action: utter_sad_response
@@ -25,7 +27,8 @@ stories:
   - action: utter_treatment_phase_question
 - story: Overwhelmed_mood_tip
   steps:
-  - intent: start
+  - intent: greet
+  - action: utter_greet
   - action: utter_mood_question
   - intent: mood_overwhelmed
   - action: utter_overwhelmed_response
@@ -33,7 +36,8 @@ stories:
   - action: utter_treatment_phase_question
 - story: Angry_mood_tip
   steps:
-  - intent: start
+  - intent: greet
+  - action: utter_greet
   - action: utter_mood_question
   - intent: mood_angry
   - action: utter_angry_response
@@ -41,15 +45,17 @@ stories:
   - action: utter_treatment_phase_question
 - story: Stressed_mood_tip
   steps:
-  - intent: start
+  - intent: greet
+  - action: utter_greet
   - action: utter_mood_question
-  - intent: mood_stress
-  - action: utter_happy_response
-  - action: utter_happy_tip
+  - intent: mood_stressed
+  - action: utter_stressed_response
+  - action: utter_stressed_tip
   - action: utter_treatment_phase_question
 - story: Anxious_mood_tip
   steps:
-  - intent: start
+  - intent: greet
+  - action: utter_greet
   - action: utter_mood_question
   - intent: mood_anxious
   - action: utter_anxious_response

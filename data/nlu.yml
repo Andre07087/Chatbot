@@ -1,13 +1,5 @@
 version: "2.0"
 nlu:
-- intent: start
-  examples: |
-    - hey
-    - hello
-    - yes
-    - Yes
-    - start
-    - hi
 - intent: mood_happy
   examples: |
     - Happy
@@ -129,3 +121,12 @@ nlu:
     - cya
     - CYa
     - Cya
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hiya
+    - hey
+    - hello
+    - start
+    - hi

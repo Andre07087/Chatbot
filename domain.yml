@@ -45,6 +45,8 @@ intents:
     use_entities: true
 - mood_overwhelmed:
     use_entities: true
+- greet:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -64,20 +66,20 @@ responses:
       title: Anxious 😰
     text: How are you feeling today?
   utter_greet:
-  - text: Hi! How can I help you today?
+  - text: Hey there! 👋 My name’s Eve, I'm a friendly chatbot with a lot to learn. I would love to start by finding information that can help you on your journey. 😄
   utter_goodbye:
   - text: Bye.
   utter_rephrase:
   - text: Sorry, I’m still learning. :( I didn’t understand that could you try rephrasing that again or choose from these options?
   utter_happy_tip:
-  - text: One of the ways to maintain a positive attitude is to spend time with a pet.
-  - text: One of the ways to maintain a positive attitude is to draw, paint, sculpt or do other forms of art.
-  - text: One of the ways to maintain a positive attitude is to have physical activities such as walking, running or bicycling.
-  - text: One of the ways to maintain a positive attitude is to practice yoga, meditation or other methods of relaxation.
-  - text: One of the ways to maintain a positive attitude is to play or listen to music.
-  - text: One way to maintain a positive attitude is to use positive affirmations or sayings.
-  - text: One of the ways to maintain a positive attitude is to share feelings with trusted friends and loved ones.
-  - text: One of the ways to maintain a positive attitude is to focus on parts of your health that you can control such as healthy eating.
+  - text: One of the ways to maintain a positive attitude is to spend time with a pet. 🐱
+  - text: One of the ways to maintain a positive attitude is to draw, paint, sculpt or do other forms of art. 🎨
+  - text: One of the ways to maintain a positive attitude is to have physical activities such as walking, running or bicycling. 🚴🏼‍♂️
+  - text: One of the ways to maintain a positive attitude is to practice yoga, meditation or other methods of relaxation. 🧘
+  - text: One of the ways to maintain a positive attitude is to play or listen to music. 🎺
+  - text: One way to maintain a positive attitude is to use positive affirmations or sayings. ❤️
+  - text: One of the ways to maintain a positive attitude is to share feelings with trusted friends and loved ones. 👩‍👩‍👧
+  - text: One of the ways to maintain a positive attitude is to focus on parts of your health that you can control such as healthy eating. 🥗
   utter_treatment_phase_question:
   - buttons:
     - payload: Diagnosis
@@ -96,15 +98,15 @@ responses:
   utter_interests_question:
   - buttons:
     - payload: Diagnosis & Treatment
-      title: Diagnosis & Treatment
+      title: Diagnosis & Treatment 🩺
     - payload: Wellness
-      title: Wellness
+      title: Wellness 🧘‍♂️
     - payload: Fitness
-      title: Fitness
+      title: Fitness 💪
     - payload: Beauty & Personal Care
-      title: Beauty & Personal Care
+      title: Beauty & Personal Care 💋
     - payload: Nutrition
-      title: Nutrition
+      title: Nutrition 🥗
     text: What would you like to learn more about today?
   utter_send_article:
   - text: Check out this content that can provide some helpful information for your journey. 👍
@@ -404,60 +406,60 @@ responses:
   - text: https://ptandme.com/post-mastectomy-physical-therapy/
   - text: https://www.cancer.org/cancer/breast-cancer/treatment/surgery-for-breast-cancer/exercises-after-breast-cancer-surgery.html,https://www.verywell.com/how-to-do-arm-exercises-after-breast-surgery-430211
   - text: http://www.cancer.org/cancer/breastcancer/moreinformation/exercises-after-breast-surgery
-  utter_surgery_nutrition:
+  utter_surgery_nutri:
   - text: https://www.verywell.com/what-to-eat-during-your-recovery-after-surgery-3156923,https://www.healthline.com/nutrition/healthy-grocery-list
   utter_happy_response:
   - text: That's awesome to hear, keep on fighting! 😁
   utter_overwhelmed_response:
   - text: It is understandable to be overwhelmed, but in this tough situation you should remain calm and focused.  👍
   utter_overwhelmed_tip:
-  - text: One way to deal with being overwhelmed is to learn as much as you can about cancer. The more you know, the more in control you'll feel.
-  - text: One way to deal with being overwhelmed is to stay busy and keep your mind active.
-  - text: One way to deal with being overwhelmed is to try taking part in activities such as music, crafts, reading, or learning something new.
-  - text: One way to deal with being overwhelmed is to meet friends often and don’t be isolated.
-  - text: One way to deal with being overwhelmed is to learn new skills that you feel passionate about.
+  - text: One way to deal with being overwhelmed is to learn as much as you can about cancer. The more you know, the more in control you'll feel. 📚
+  - text: One way to deal with being overwhelmed is to stay busy and keep your mind active. 🧠
+  - text: One way to deal with being overwhelmed is to try taking part in activities such as music, crafts, reading, or learning something new. 🎨
+  - text: One way to deal with being overwhelmed is to meet friends often and don’t be isolated. 👩‍👩‍👧
+  - text: One way to deal with being overwhelmed is to learn new skills that you feel passionate about. 🎺
   utter_sad_response:
   - text: I sympathize with what you are going through and I understand this is a very tough situation, but try and keep your head up. 🙏
   utter_sad_tip:
-  - text: Something that might cheer you up is to write in a journal.
-  - text: Something that might cheer you up is to spend time with a pet.
-  - text: Something that might cheer you up is to draw, paint, sculpt or do other forms of art.
-  - text: Something that might cheer you up is to have physical activities such as walking, running or bicycling.
-  - text: Something that might cheer you up is to practice yoga, meditation or other methods of relaxation.
-  - text: Something that might cheer you up is to play or listen to music.
-  - text: Something that might cheer you up is to use positive affirmations or sayings.
-  - text: Something that might cheer you up is to share feelings with trusted friends and loved ones.
-  - text: Something that might cheer you up is to focus on parts of your health that you can control such as healthy eating.
+  - text: Something that might cheer you up is to write in a journal. 📔
+  - text: Something that might cheer you up is to spend time with a pet. 😸
+  - text: Something that might cheer you up is to draw, paint, sculpt or do other forms of art. 🎨
+  - text: Something that might cheer you up is to have physical activities such as walking, running or bicycling. 🚴🏼‍♂️
+  - text: Something that might cheer you up is to practice yoga, meditation or other methods of relaxation. 🧘
+  - text: Something that might cheer you up is to play or listen to music. 🎺
+  - text: Something that might cheer you up is to use positive affirmations or sayings. ❤️
+  - text: Something that might cheer you up is to share feelings with trusted friends and loved ones. 👩‍👩‍👧
+  - text: Something that might cheer you up is to focus on parts of your health that you can control such as healthy eating. 🥗
   utter_angry_response:
   - text: Anger is a natural emotional response. You do not need to feel guilt if you experience it. Anger is not bad, but you should avoid expressing it in unhealthy ways. 👊
   utter_angry_tip:
-  - text: One way to express and release your anger in a healthy way is to discuss the reasons for your anger with a trusted family member or friend.
-  - text: One way to express and release your anger in a healthy way is to do a physical activity while feeling your anger at its full intensity.
-  - text: One way to express and release your anger in a healthy way is to beat on a pillow with your fists, or find a punching bag.
-  - text: One way to express and release your anger in a healthy way is to yell out loud in a car or private room.
-  - text: One way to express and release your anger in a healthy way is to explore complementary therapies, such as massage, relaxation techniques, music, or art.
-  - text: One way to express and release your anger in a healthy way is to do light exercises like yoga or going for a walk.
-  utter_stressed_reponse:
+  - text: One way to express and release your anger in a healthy way is to discuss the reasons for your anger with a trusted family member or friend. 👩‍👩‍👧‍👧
+  - text: One way to express and release your anger in a healthy way is to do a physical activity while feeling your anger at its full intensity. 🚴‍♀️
+  - text: One way to express and release your anger in a healthy way is to beat on a pillow with your fists, or find a punching bag. 👊
+  - text: One way to express and release your anger in a healthy way is to yell out loud in a car or private room. 📣
+  - text: One way to express and release your anger in a healthy way is to explore complementary therapies, such as massage, relaxation techniques, music, or art. 🎨
+  - text: One way to express and release your anger in a healthy way is to do light exercises like yoga or going for a walk. 🚶‍♀️
+  utter_stressed_response:
   - text: Cancer is often one of the most stressful experiences of a person's life. Stress can make dealing with cancer so much more difficult, but you can often lower the amount of stress in your life by making small changes. 🙏
   utter_stressed_tip:
-  - text: Try to take control of your schedule and use a day planner, your phone, or an online calendar to keep track of appointments and activities. 📅
-  - text: Try to be aware of your limits. If you do not have the time, energy, or interest, it is okay to politely decline when people ask you to take on tasks.
-  - text: Try asking for help. People are likely to offer their support, so think about particular tasks you need help with beforehand. 🤝
-  - text: Try prioritizing your tasks. Make a list of the things you routinely do, such as work and household chores. Rank these things by importance, considering the things you must do and the things that are most important to you.
-  - text: Try breaking down tasks into smaller steps. This process can make seemingly overwhelming problems easier to handle.
-  - text: Try to concentrate your efforts on things you can control. A stressor may be something you cannot change or control, even with the best planning.
-  - text: Try to get help with financial problems. Talk with an oncology social worker or a financial advisor who knows about cancer-related insurance and financial matters. Do not wait to find financial help.
+  - text: You can reduce stress by trying to take control of your schedule and use a day planner, your phone, or an online calendar to keep track of appointments and activities. 📅
+  - text: You can reduce stress by being aware of your limits. If you do not have the time, energy, or interest, it is okay to politely decline when people ask you to take on tasks.
+  - text: You can reduce stress by asking for help. People are likely to offer their support, so think about particular tasks you need help with beforehand. 🤝
+  - text: You can reduce stress by prioritizing your tasks. Make a list of the things you routinely do, such as work and household chores. Rank these things by importance, considering the things you must do and the things that are most important to you.
+  - text: You can reduce stress by breaking down tasks into smaller steps. This process can make seemingly overwhelming problems easier to handle.
+  - text: You can reduce stress by trying to concentrate your efforts on things you can control. A stressor may be something you cannot change or control, even with the best planning.
+  - text: You can reduce stress by trying to get help with financial problems. Talk with an oncology social worker or a financial advisor who knows about cancer-related insurance and financial matters. Do not wait to find financial help.
   utter_anxious_response:
   - text: Anxiety is a common problem for patients with a cancer diagnosis. It's important to recognize anxiety and take steps to manage it or prevent it from getting worse. ☝️
   utter_anxious_tip:
-  - text: A relaxation technique that may help with anxiety is deep breathing.
-  - text: A relaxation technique that may help with anxiety is progressive muscle relaxation which involves tightening and then relaxing muscles.
-  - text: A relaxation technique that may help with anxiety is guided imagery which is the use of words and sounds to help you imagine positive settings, experiences, and feelings.
-  - text: A relaxation technique that may help with anxiety is meditation. This is a practice of focusing attention to achieve a sense of well-being in the present moment and reduce stress.
-  - text: A relaxation technique that may help with anxiety is hypnosis.
-  - text: A relaxation technique that may help with anxiety is biofeedback. This involves paying attention to and controlling signals from the body, such as heart rate. Signals from the body are measured with painless electrical sensors, called electrodes.
-  - text: A relaxation technique that may help with anxiety is yoga. This is the use of breathing and posture exercises to promote relaxation.
-  - text: Psychological treatment may help with anxiety. Mental health professionals include licensed counselors, psychologists, and psychiatrists. They provide tools to improve coping skills, develop a support system, and reshape negative thoughts.
+  - text: A relaxation technique that may help with anxiety is deep breathing. 🙏
+  - text: A relaxation technique that may help with anxiety is progressive muscle relaxation which involves tightening and then relaxing muscles. 🙏
+  - text: A relaxation technique that may help with anxiety is guided imagery which is the use of words and sounds to help you imagine positive settings, experiences, and feelings. 🙏
+  - text: A relaxation technique that may help with anxiety is meditation. This is a practice of focusing attention to achieve a sense of well-being in the present moment and reduce stress. 🙏
+  - text: A relaxation technique that may help with anxiety is hypnosis. 🙏
+  - text: A relaxation technique that may help with anxiety is biofeedback. This involves paying attention to and controlling signals from the body, such as heart rate. Signals from the body are measured with painless electrical sensors, called electrodes. 🙏
+  - text: A relaxation technique that may help with anxiety is yoga. This is the use of breathing and posture exercises to promote relaxation. 🙏
+  - text: Psychological treatment may help with anxiety. Mental health professionals include licensed counselors, psychologists, and psychiatrists. They provide tools to improve coping skills, develop a support system, and reshape negative thoughts. 🙏
 actions: []
 forms: {}
 e2e_actions: []
