@@ -83,7 +83,7 @@ responses:
   utter_treatment_phase_question:
   - buttons:
     - payload: Diagnosis
-      title: Diagnosis
+      title: Just Diagnosed
     - payload: Surgery
       title: Surgery
     - payload: Chemotherapy
@@ -107,7 +107,7 @@ responses:
       title: Beauty & Personal Care 💋
     - payload: Nutrition
       title: Nutrition 🥗
-    text: What would you like to learn more about today?
+    text: What topic would you like to learn more about today?
   utter_send_article:
   - text: Check out this content that can provide some helpful information for your journey. 👍
   utter_chemo_diag:
