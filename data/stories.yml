@@ -16,6 +16,7 @@ stories:
   - intent: diagnosis-and-treatment
   - action: utter_send_article
   - action: utter_diag_diag
+  - action: utter_sign_up
 - story: Sad_mood_tip
   steps:
   - intent: greet
@@ -68,6 +69,7 @@ stories:
   - intent: wellness
   - action: utter_send_article
   - action: utter_diag_wellness
+  - action: utter_sign_up
 - story: Diagnosis_nutrition
   steps:
   - intent: diagnosis
@@ -75,6 +77,7 @@ stories:
   - intent: nutrition
   - action: utter_diag_nutri
   - action: utter_diag_diag
+  - action: utter_sign_up
 - story: Diagnosis_fitness
   steps:
   - intent: diagnosis
@@ -82,6 +85,7 @@ stories:
   - intent: fitness
   - action: utter_diag_fitness
   - action: utter_diag_diag
+  - action: utter_sign_up
 - story: Diagnosis_beauty
   steps:
   - intent: diagnosis
@@ -89,6 +93,7 @@ stories:
   - intent: beauty-and-care
   - action: utter_diag_beauty
   - action: utter_diag_diag
+  - action: utter_sign_up
 - story: Chemo_diagnosis_and_treat
   steps:
   - intent: chemotherapy
@@ -96,6 +101,7 @@ stories:
   - intent: diagnosis-and-treatment
   - action: utter_send_article
   - action: utter_chemo_diag
+  - action: utter_sign_up
 - story: Chemo_wellness
   steps:
   - intent: chemotherapy
@@ -103,6 +109,7 @@ stories:
   - intent: wellness
   - action: utter_send_article
   - action: utter_chemo_wellness
+  - action: utter_sign_up
 - story: Chemo_fitness
   steps:
   - intent: chemotherapy
@@ -110,6 +117,7 @@ stories:
   - intent: fitness
   - action: utter_send_article
   - action: utter_chemo_fitness
+  - action: utter_sign_up
 - story: Chemo_beauty
   steps:
   - intent: chemotherapy
@@ -117,6 +125,7 @@ stories:
   - intent: beauty-and-care
   - action: utter_send_article
   - action: utter_chemo_beauty
+  - action: utter_sign_up
 - story: Chemo_nutrition
   steps:
   - intent: chemotherapy
@@ -124,6 +133,7 @@ stories:
   - intent: nutrition
   - action: utter_send_article
   - action: utter_chemo_nutri
+  - action: utter_sign_up
 - story: Hormone_diagnosis_and_treat
   steps:
   - intent: hormone
@@ -131,6 +141,7 @@ stories:
   - intent: diagnosis-and-treatment
   - action: utter_send_article
   - action: utter_hormone_diag
+  - action: utter_sign_up
 - story: Hormone_wellness
   steps:
   - intent: hormone
@@ -138,6 +149,7 @@ stories:
   - intent: wellness
   - action: utter_send_article
   - action: utter_hormone_wellness
+  - action: utter_sign_up
 - story: Hormone_fitness
   steps:
   - intent: hormone
@@ -145,6 +157,7 @@ stories:
   - intent: fitness
   - action: utter_hormone_fitness
   - action: utter_hormone_diag
+  - action: utter_sign_up
 - story: Hormone_beauty
   steps:
   - intent: hormone
@@ -152,6 +165,7 @@ stories:
   - intent: beauty-and-care
   - action: utter_send_article
   - action: utter_hormone_beauty
+  - action: utter_sign_up
 - story: Hormone_nutrition
   steps:
   - intent: hormone
@@ -159,6 +173,7 @@ stories:
   - intent: nutrition
   - action: utter_send_article
   - action: utter_hormone_nutri
+  - action: utter_sign_up
 - story: Radiation_diagnosis_and_treat
   steps:
   - intent: radiation
@@ -166,6 +181,7 @@ stories:
   - intent: diagnosis-and-treatment
   - action: utter_send_article
   - action: utter_radiation_diag
+  - action: utter_sign_up
 - story: Radiation_wellness
   steps:
   - intent: radiation
@@ -173,6 +189,7 @@ stories:
   - intent: wellness
   - action: utter_send_article
   - action: utter_radiation_wellness
+  - action: utter_sign_up
 - story: Radiation_fitness
   steps:
   - intent: radiation
@@ -180,6 +197,7 @@ stories:
   - intent: fitness
   - action: utter_send_article
   - action: utter_radiation_fitness
+  - action: utter_sign_up
 - story: Radiation_beauty
   steps:
   - intent: radiation
@@ -187,6 +205,7 @@ stories:
   - intent: beauty-and-care
   - action: utter_send_article
   - action: utter_radiation_beauty
+  - action: utter_sign_up
 - story: Radiation_nutrition
   steps:
   - intent: radiation
@@ -194,6 +213,7 @@ stories:
   - intent: nutrition
   - action: utter_radiation_nutri
   - action: utter_radiation_diag
+  - action: utter_sign_up
 - story: Surgery_diagnosis_and_treat
   steps:
   - intent: surgery
@@ -201,6 +221,7 @@ stories:
   - intent: diagnosis-and-treatment
   - action: utter_send_article
   - action: utter_surgery_diag
+  - action: utter_sign_up
 - story: Surgery_wellness
   steps:
   - intent: surgery
@@ -208,6 +229,7 @@ stories:
   - intent: wellness
   - action: utter_send_article
   - action: utter_surgery_wellness
+  - action: utter_sign_up
 - story: Surgery_fitness
   steps:
   - intent: surgery
@@ -215,6 +237,7 @@ stories:
   - intent: fitness
   - action: utter_send_article
   - action: utter_surgery_fitness
+  - action: utter_sign_up
 - story: Surgery_beauty
   steps:
   - intent: surgery
@@ -222,6 +245,7 @@ stories:
   - intent: beauty-and-care
   - action: utter_send_article
   - action: utter_surgery_beauty
+  - action: utter_sign_up
 - story: Surgery_nutrition
   steps:
   - intent: surgery
@@ -229,6 +253,7 @@ stories:
   - intent: nutrition
   - action: utter_send_article
   - action: utter_surgery_nutri
+  - action: utter_sign_up
 - story: Post_diagnosis_and_treat
   steps:
   - intent: post-treatment
@@ -236,6 +261,7 @@ stories:
   - intent: diagnosis-and-treatment
   - action: utter_send_article
   - action: utter_post_diag
+  - action: utter_sign_up
 - story: Post_wellness
   steps:
   - intent: post-treatment
@@ -243,6 +269,7 @@ stories:
   - intent: wellness
   - action: utter_send_article
   - action: utter_post_wellness
+  - action: utter_sign_up
 - story: Post_fitness
   steps:
   - intent: post-treatment
@@ -250,6 +277,7 @@ stories:
   - intent: fitness
   - action: utter_send_article
   - action: utter_post_fitness
+  - action: utter_sign_up
 - story: Post_beauty
   steps:
   - intent: post-treatment
@@ -257,6 +285,7 @@ stories:
   - intent: beauty-and-care
   - action: utter_send_article
   - action: utter_post_beauty
+  - action: utter_sign_up
 - story: Post_nutrition
   steps:
   - intent: post-treatment
@@ -264,3 +293,4 @@ stories:
   - intent: nutrition
   - action: utter_send_article
   - action: utter_post_nutri
+  - action: utter_sign_up
