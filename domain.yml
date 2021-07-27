@@ -400,8 +400,9 @@ responses:
   - text: http://bcconnections.org/wp-content/uploads/2013/06/Rehabilitation-and-Physical-Recovery-After-Breast-Surgery-Sharon-Leslie-DPT.pdf
   utter_surgery_fitness:
   - text: https://ptandme.com/post-mastectomy-physical-therapy/
-  - text: https://www.cancer.org/cancer/breast-cancer/treatment/surgery-for-breast-cancer/exercises-after-breast-cancer-surgery.html,https://www.verywell.com/how-to-do-arm-exercises-after-breast-surgery-430211
+  - text: https://www.cancer.org/cancer/breast-cancer/treatment/surgery-for-breast-cancer/exercises-after-breast-cancer-surgery.html
   - text: http://www.cancer.org/cancer/breastcancer/moreinformation/exercises-after-breast-surgery
+  - text: https://www.verywell.com/how-to-do-arm-exercises-after-breast-surgery-430211
   utter_surgery_nutri:
   - text: https://www.verywell.com/what-to-eat-during-your-recovery-after-surgery-3156923,https://www.healthline.com/nutrition/healthy-grocery-list
   utter_happy_response:
