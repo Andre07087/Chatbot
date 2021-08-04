@@ -1,2 +1,3 @@
-# Chatbot
-Chatbot project using Rasa X
+# Chatbot Project
+
+Chatbot AI with Rasa NLU engine
